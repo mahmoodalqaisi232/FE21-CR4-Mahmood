@@ -18,9 +18,9 @@ for (val of movies2){
                 <p class="card-text"><small> ${val.description}
                   </small>
                 </p>
-                <p class="mb-0">Release Date: ${val.releaseDate}</p>
+                <p class="mb-0 text-info">Release Date: ${val.releaseDate}</p>
                 <div class=" d-flex cardBottom position-absolute justify-content-end w-100 pe-2 pb-2 " >
-                <button type="button" class="btn  bg-transparent text-success fs-5  text-end ">Like 
+                <button type="button" class="btn  bg-transparent text-success fs-4  text-end shadow-none ">Like 
                     <span class="btn-label"><i class="fa fa-thumbs-up"></i></span></button>
                     <div class="circle"><span id="circleText"> ${val.likes}</span></div>
             </div>
