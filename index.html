@@ -10,16 +10,21 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 
     <title>Movie Factory</title>
   </head>
-  <body>
+  <body class="bg-dark">
     <header>
-      <nav class="navbar navbar-light bg-dark">
+      <nav class="navbar navbar-light backgroundColor">
         <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1 text-light m-auto fs-3"
+          <span class="navbar-brand mb-0 h1 text-light m-auto fs-1 fw-normal "
             >Movie Factory</span
           >
         </div>
@@ -40,94 +45,22 @@
 
     <div class="container-fluid pt-3">
       <div class="d-flex">
-        <p class="fw-bold flex-grow-1 text-center">Movies</p>
-        <p class="fw-bold">Sort</p>
+        <p class="fw-normal fs-3 flex-grow-1 text-center text-light ">Movies</p>
+        <p class="fw-normal fs-3 text-light">Sort</p>
       </div>
-
-      <!-- start of movies cards -->
-      <div class="row" id="row">
-
-        <!-- first card
-        <div class="card col-4  p-0" style="max-width: 540px">
-          <div class="row g-0 cardRow">
-            <div class="col-md-4">
-              <img
-                src="images/movie1-johnwick.jpg"
-                class="img-fluid rounded-start cardImage"
-                alt="John Wick"
-              />
-            </div>
-            <div class="col-md-8 bg-dark text-light ">
-              <div class="card-body pe-lg-1 pb-0 ">
-                <h5 class="card-title h4">John Wick</h5>
-                <p class="card-text"><small>
-                  The story focuses on John Wick who seeks revenge on the son of
-                  Russian gangster for stealing his vintage car and killing his
-                  puppy.</small>
-                </p>
-                <div class=" d-flex justify-content-end bottom pt-3 pe-2 pb-1   ">
-                    <button type="button" class="btn  bg-transparent text-success fs-4 pt-1">Like 
-                        <span class="btn-label"><i class="fa fa-thumbs-up"></i></span></button>
-                        <div class="circle"><span id="circleText"> 30</span> </div>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        second card 
-        <div class="card col-4 mb-3 p-0" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/movie1-johnwick.jpg"
-                class="img-fluid rounded-start"
-                alt="John Wick"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  The story focuses on John Wick who seeks revenge on the son of
-                  Russian gangster for stealing his vintage car and killing his
-                  puppy.
-                </p>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        third card 
-        <div class="card col-4 mb-3 p-0" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/movie1-johnwick.jpg"
-                class="img-fluid rounded-start"
-                alt="John Wick"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> -->
-      </div>
+      <br/>
     </div>
+    <div class="container-fluid">
+      <div class="row g-lg-1 mb-5" id="row"></div>
+    </div>
+    <br /><br /><br /><br />
+    <footer>
+      <nav class="navbar text-light bg-dark footerHeight backgroundColor">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1 m-auto fs-2 fw-normal">Movie Factory </span>
+        </div>
+      </nav>
+    </footer>
 
     <!-- JS AND JSON -->
     <script src="/json/myjson.json"></script>
