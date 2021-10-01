@@ -1,0 +1,29 @@
+let movies = `[{
+
+    "movieName": "John Wick",
+    "image": "images/movie1-johnwick.jpg",
+    "description": "The story focuses on John Wick who seeks revenge on the son of Russian gangster for stealing his vintage car and killing his puppy.",
+    "releaseDate": "2014",
+    "likes": 0
+
+},
+{
+    "movieName": "Iron Man",
+    "image": "images/movie2-ironman.jpg",
+    "description": "Iron Man is a fictional superhero who wears a suit of armor. His alter ego is Tony Stark. He was created by Stan Lee, Jack Kirby and Larry Lieber for Marvel Comics in Tales of Suspense #39 in the year 1963 and appears in their comic books.",
+    "releaseDate": "2008",
+    "likes": 0
+},
+{
+    "movieName": "leon the professional",
+    "image": "images/movie3-leon.jpg",
+    "description": "Léon is a professional killer. He lives alone in New York City and gets most of his assignments from a mafioso named “Old Tony”.",
+    "releaseDate": "1994",
+    "likes": 0
+
+}
+
+
+
+
+]`

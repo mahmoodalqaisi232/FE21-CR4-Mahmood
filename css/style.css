@@ -1,0 +1,31 @@
+.circle {
+    border-radius: 50%;
+    width: 20%;
+    background-color: #5cb85c;
+    color: #fff;
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 1.2rem;
+    position: relative;
+}
+#circleText{
+    position: absolute;
+    font-size: 1.1rem;
+    left: 0;
+    right: 0;
+    top: 25%;
+    bottom: 25%;
+   
+}
+.cardRow{
+    min-height: 100%!important;
+    
+
+}
+.cardBody{
+    max-height: 100%!important;
+}
+.cardImage{
+    height: 100%!important;
+    
+}
