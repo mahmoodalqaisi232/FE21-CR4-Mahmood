@@ -10,7 +10,7 @@ let movies = `[{
 },
 {
     "movieName": "Iron Man",
-    "image": "images/movie2-ironman.jpg",
+    "image": "images/movie2-ironman1.jpg",
     "description": "Iron Man is a fictional superhero who wears a suit of armor. His alter ego is Tony Stark. ",
     "releaseDate": "2008",
     "likes": 5,

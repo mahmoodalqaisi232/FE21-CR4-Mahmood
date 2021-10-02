@@ -1,9 +1,9 @@
 var movies2 = JSON.parse(movies);
-// console.log(movies2[1].likes);
+// console.log(movies2);
 
 for (val of movies2){
     document.getElementById("row").innerHTML += `
-    <div class="card col-lg-4 col-md-5 p-0 backgroundColor " >
+    <div class="card col-lg-4 col-md-5 p-0 backgroundColor me-md-5 me-lg-0 ms-md-2 ms-lg-0 " >
           <div class="row g-0 cardRow">
             <div class="col-md-5 col-lg-5">
               <img
@@ -14,7 +14,7 @@ for (val of movies2){
             </div>
             <div class="col-md-7 col-lg-7 text-light position-relative">
               <div class="card-body pe-lg-1 pb-0 ">
-                <h4 class="card-title "> ${val.movieName}</h4>
+                <h4 class="card-title fs-2 "> ${val.movieName}</h4>
                 <p class="card-text"><small> ${val.description}
                   </small>
                   <p class="mb-0 text-info">Release Date: ${val.releaseDate}</p>
@@ -24,7 +24,7 @@ for (val of movies2){
                 <div class=" d-flex cardBottom position-absolute justify-content-end w-100 pe-2 pb-2 " >
                 <button type="button" class="btn myBtn  bg-transparent text-success fs-3  text-end shadow-none ">Like 
                     <span class="btn-label"><i class="fa fa-thumbs-up"></i></span></button>
-                    <div class="circle circleText mt-lg-2 mt-md-1 pt-2 fs-4"> ${val.likes}</div>
+                    <div class="circle circleText  pt-1 pt-lg-1  pt-xl-3 fs-4 mt-sm-2 mt-md-1 mt-lg-2 mt-xl-2"> ${val.likes}</div>
             </div>
               </div>
             </div>
@@ -38,8 +38,8 @@ for (val of movies2){
 var btns= document.getElementsByClassName("myBtn");
 var countUp = document.getElementsByClassName("circleText");
 
-// console.log(countUp);
-// console.log(btns);
+console.log(countUp);
+console.log(btns);
 var btn1=btns[0];
 var btn1Counter=countUp[0];
 var value1 =movies2[0].likes
@@ -91,32 +91,17 @@ btn6.addEventListener("click", function(){
 })
 
 
+// var btns= document.getElementsByClassName("myBtn");
+// var countUp = document.getElementsByClassName("circleText");
+// console.log(countUp[0])
+// console.log(btns[0])
+// function increment(){
+//   let value =`${movies2[0].likes}`;
+//   value++;
+//   countUp[0].innerHTML=value;
+// }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//   btns[0].addEventListener("click", increment)  
 
 
 
