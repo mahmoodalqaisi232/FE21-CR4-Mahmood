@@ -2,9 +2,10 @@ let movies = `[{
 
     "movieName": "John Wick",
     "image": "images/movie1-johnwick.jpg",
-    "description": "The story focuses on John Wick who seeks revenge on the son of Russian gangster for stealing his vintage car and killing his puppy.",
+    "description": "John Wick who seeks revenge on the son of Russian gangster for stealing his vintage car and killing his puppy.",
     "releaseDate": "2014",
-    "likes": 30
+    "likes": 30,
+    "genre": "Action"
 
 },
 {
@@ -12,22 +13,25 @@ let movies = `[{
     "image": "images/movie2-ironman.jpg",
     "description": "Iron Man is a fictional superhero who wears a suit of armor. His alter ego is Tony Stark. ",
     "releaseDate": "2008",
-    "likes": 5
+    "likes": 5,
+    "genre": "Action"
 },
 {
     "movieName": "leon the professional",
     "image": "images/movie3-leon3.jpg",
-    "description": "Léon is a professional killer. He lives alone in New York City and gets most of his assignments from a mafioso named “Old Tony”.",
+    "description": "Léon is a professional killer.",
     "releaseDate": "1994",
-    "likes": 22
+    "likes": 22,
+    "genre": "Action"
 
 },
 {
     "movieName": "Conjuring 3",
     "image": "images/movie4-conjuring3.jpg",
     "description": "The Warrens investigate a murder that may be linked to a demonic possession.",
-    "releaseDate": "1994",
-    "likes": 13
+    "releaseDate": "2021",
+    "likes": 13,
+    "genre": "Thriller"
 
 },
 {
@@ -35,15 +39,18 @@ let movies = `[{
     "image": "images/movie5-ff1.jpg",
     "description": "The Fast and the Furious takes you inside the world of street racing.",
     "releaseDate": "2017",
-    "likes": 10
+    "likes": 10,
+    "genre": "Adventure"
 
 },
 {
     "movieName": "Free guy",
     "image": "images/movie6-freeguy.jpg",
-    "description": "Free Guy, a bank teller who discovers he is actually a background player in an open-world video game, decides to become the hero of his own story",
+    "description": "Free Guy, a bank teller who discovers he is actually a background player in an open-world video game",
     "releaseDate": "2020",
-    "likes": 4
+    "likes": 4,
+    "genre": "Comedy"
+
 
 }
 

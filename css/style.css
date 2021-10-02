@@ -1,29 +1,19 @@
 .circle {
     border-radius: 50%;
-    width: 3vw;
-    height: 3vw;
+    width: 5vw;
+    height: 5vw;
     background-color: #5cb85c;
     color: #fff;
     text-align: center;
-    /* font-weight: bold; */
     font-size: 1.2rem;
-    position: relative;
 }
-#circleText{
-    position: absolute;
-    font-size: 1rem;
-    left: 0;
-    right: 0;
-    top: 25%;
-    bottom: 25%;
-   
-}
-.card{
+
+/* .card{
     min-height: 80%!important;
     max-height: 80%!important;
-}
+} */
 .cardRow{
-    min-height: 100%!important;
+    min-height: 35vh!important;
     
 
 }
@@ -32,6 +22,7 @@
 }
 .cardImage{
     height: 100%!important;
+    border: grey 4px;
     
 }
 
@@ -50,3 +41,8 @@
 .backgroundColor{
     background-color: #161314 !important;
 }
+.line{
+    background-color: #3E3C3D!important;
+    height: 7vh;
+}
+

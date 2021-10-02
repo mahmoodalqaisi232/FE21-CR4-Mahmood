@@ -1,79 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
 
-    <title>Movie Factory</title>
-  </head>
-  <body class="bg-dark">
-    <header>
-      <nav class="navbar navbar-light backgroundColor">
-        <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1 text-light m-auto fs-1 fw-normal "
-            >Movie Factory</span
-          >
-        </div>
-      </nav>
-      <div
-        class="
-          navbar-brand
-          container-fluid
-          text-light
-          fw-bold
-          bg-secondary
-          ps-2
-        "
-      >
-        Home
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+  <title>Movie Factory</title>
+</head>
+
+<body class="bg-dark">
+  <header>
+    <nav class="navbar navbar-light backgroundColor">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1 text-light m-auto fs-1 fw-normal ">Movie Factory</span>
       </div>
-    </header>
+    </nav>
+    <div class=" text-light fw-bold fs-3 line ps-3 pt-2 ">
+      Home
+    </div>
+  </header>
 
-    <div class="container-fluid pt-3">
-      <div class="d-flex">
-        <p class="fw-normal fs-3 flex-grow-1 text-center text-light ">Movies</p>
-        <div class="dropdown">
-          <button class="btn btn-dark fw-normal fs-3 dropdown-toggle shadow-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Sort
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+  <div class="container-fluid pt-3">
+    <div class="d-flex">
+      <p class="fw-normal fs-3 flex-grow-1 text-center text-light ">Movies</p>
+      <div class="dropdown">
+        <button class="btn btn-dark fw-normal fs-3 dropdown-toggle shadow-none" type="button" id="dropdownMenuButton"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sort
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </div>
-      <br/>
     </div>
-    <div class="container-fluid">
-      <div class="row g-lg-1 mb-5" id="row"></div>
-    </div>
-    <br /><br /><br /><br />
-    <footer>
-      <nav class="navbar text-light bg-dark footerHeight backgroundColor">
-        <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1 m-auto fs-2 fw-normal">Movie Factory </span>
-        </div>
-      </nav>
-    </footer>
+    <br />
+  </div>
+  <div class="container-fluid ps-lg-1">
+    <div class="row  mb-5 ms-md-5 ms-lg-0 g-md-4 g-lg-4" id="row"></div>
+  </div>
+  <br /><br /><br /><br />
+  <footer>
+    <nav class="navbar text-light bg-dark footerHeight backgroundColor">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1 m-auto fs-2 fw-normal">Movie Factory </span>
+      </div>
+    </nav>
+  </footer>
 
-    <!-- JS AND JSON -->
-    <script src="/json/myjson.json"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
+  <!-- JS AND JSON -->
+  <script src="/json/myjson.json"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
 </html>
