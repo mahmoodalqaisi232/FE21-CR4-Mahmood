@@ -43,8 +43,8 @@ console.log(btns);
 var btn1=btns[0];
 var btn1Counter=countUp[0];
 var value1 =movies2[0].likes
-console.log(btn1);
-console.log(btn1Counter);
+// console.log(btn1);
+// console.log(btn1Counter);
 
 btn1.addEventListener("click", function(){
     btn1Counter.innerHTML = value1 ++;
