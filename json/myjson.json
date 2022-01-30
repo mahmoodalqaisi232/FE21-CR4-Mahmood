@@ -4,8 +4,9 @@ let movies = `[{
     "image": "images/movie1-johnwick.jpg",
     "description": "John Wick who seeks revenge on the son of Russian gangster for stealing his vintage car and killing his puppy.",
     "releaseDate": "2014",
-    "likes": 30,
-    "genre": "Action"
+    "likes": 11,
+    "genre": "Action",
+    "id":1
 
 },
 {
@@ -13,8 +14,9 @@ let movies = `[{
     "image": "images/movie2-ironman1.jpg",
     "description": "Iron Man is a fictional superhero who wears a suit of armor. His alter ego is Tony Stark. ",
     "releaseDate": "2008",
-    "likes": 5,
-    "genre": "Action"
+    "likes": 34,
+    "genre": "Action",
+    "id":2
 },
 {
     "movieName": "leon the professional",
@@ -22,7 +24,8 @@ let movies = `[{
     "description": "Léon is a professional killer.",
     "releaseDate": "1994",
     "likes": 22,
-    "genre": "Action"
+    "genre": "Action",
+    "id":3
 
 },
 {
@@ -30,8 +33,9 @@ let movies = `[{
     "image": "images/movie4-conjuring3.jpg",
     "description": "The Warrens investigate a murder that may be linked to a demonic possession.",
     "releaseDate": "2021",
-    "likes": 13,
-    "genre": "Thriller"
+    "likes": 10,
+    "genre": "Thriller",
+    "id":4
 
 },
 {
@@ -39,8 +43,9 @@ let movies = `[{
     "image": "images/movie5-ff1.jpg",
     "description": "The Fast and the Furious takes you inside the world of street racing.",
     "releaseDate": "2017",
-    "likes": 10,
-    "genre": "Adventure"
+    "likes": 4,
+    "genre": "Adventure",
+    "id":5
 
 },
 {
@@ -48,13 +53,10 @@ let movies = `[{
     "image": "images/movie6-freeguy.jpg",
     "description": "Free Guy, a bank teller who discovers he is actually a background player in an open-world video game",
     "releaseDate": "2020",
-    "likes": 4,
-    "genre": "Comedy"
+    "likes": 2,
+    "genre": "Comedy",
+    "id":6
 
 
 }
-
-
-
-
 ]`

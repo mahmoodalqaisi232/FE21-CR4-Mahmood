@@ -1,61 +1,138 @@
-.circle {
-    border-radius: 50%;
-    width: 5vw;
-    height: 5vw;
-    background-color: #5cb85c;
-    text-align: center;
+html,body{
+    height: 100%;
 }
-
-
-/* .cardRow{
-    min-height: 35vh!important;
-    
-
-} */
-/* .cardBody{
-    max-height: 100%!important;
-} */
-.card-body{
-    height: 50vh!important;
+.container-fluid{
+    height: 100%;
 }
-.cardImage{
-    height: 100%!important;
-    border: grey 4px;
-    
-}
+.card{
 
-.cardBottom{
-    font-size: 0.7rem!important;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+.card-title{
+    padding-top: 1vw;
+    font-size: 2vw;
+}
+.imgContainer{
+    width: 40%;
+}
+.imgContainer >img{
+    object-fit:fill;
+    height: 100%;
     width: 100%;
+}
+.card-body{
+    position: relative;
+    width: 60%;
+    padding: 0 1vw;
+    margin: 0;
+}
+.card-descsription{
+    font-size: 0.9vw;
+
+}
+.releaseDate{
+    font-size: 1vw;
+    margin-bottom: 0;
+    color: rgb(216, 65, 65);
+}
+.genre{
+    font-size: 1vw;
+    color: rgb(126, 165, 60);
+    margin: 0;
+}
+.likeContainer{
+    position: absolute;
+    right: 0;
     bottom: 0;
-    left: 0;
-    font-size: 0.9rem!important;
-    background-color: #161314 !important;
+    width: 100%;
+}
+.myBtn{
+    border: 0;
+    padding:0;
+    color: rgb(126, 165, 60);
+    background:transparent;
+}
+.myBtn:active{
+    box-shadow: none;
+}
+.myBtn:focus{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.myBtn:visited{
+    border: 1px solid black!important;
+}
+.circle{
+    background-color: darkolivegreen;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.footerHeight{
-    height: 14vh;
-}
-.backgroundColor{
-    background-color: #161314 !important;
-}
-.line{
-    background-color: #3E3C3D!important;
-    height: 7vh;
+footer, header{
+    background-color: black;
+    height:10vh;
+    padding-top: 1vh;
 }
 
-@media screen and (min-width:576px) and (max-width:767px) {
-    .circle {
-        
-        width: 6vh!important;
-        height: 6vh!important;
+@media screen and (min-width:1024px) {
+    main{
+        height: 70vh;
+        padding-top: 10vh;
+    }    .card-title{
+        font-size: 2.4vw;
     }
-    
+    .card-descsription, .releaseDate, .genre{
+        font-size: 1.1vw;
+    }
 }
-@media (max-width:575px){
-    .circle {
-        
-        width: 6vh!important;
-        height: 6vh!important;
+@media screen  and (min-width:768px) and (max-width:1023px)   {
+
+    .container-fluid{
+            height: 80vh;
+    }
+    .card-title{
+        font-size: 2.7vw;
+    }
+    .card-descsription, .releaseDate, .genre{
+        font-size: 2vw;
+    }
+    .circle{
+        margin-top: 1vw;
+    }
+}
+@media screen and (min-width:425px) and (max-width:767px) {
+    .container-fluid{
+        height: auto;
+    }
+    .card-title{
+        font-size: 5vw;
+    }
+    .card-descsription, .releaseDate, .genre{
+        font-size: 3vw;
+    }
+    .circle{
+        width: 6vw;
+        height: 6vw;
+        margin-top: 1vw;
+    }
+}
+@media screen and (max-width:424px) {
+    .container-fluid{
+        height: auto;
+    }
+    .card-title{
+        font-size: 6vw;
+    }
+    .card-descsription, .releaseDate, .genre{
+        font-size: 3.1vw;
+    }
+    .circle{
+        margin-top: 1vw;
+        width: 7vw;
+        height: 7vw;
     }
 }
